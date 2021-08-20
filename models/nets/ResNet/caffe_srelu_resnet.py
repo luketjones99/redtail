@@ -384,7 +384,10 @@ def writeBlock2Inc(f, srcName, numMap, name):
     writeSReLULayer(f, name)
 
 def writeResNetSections(f, sections, srcName, srcNumMap):
+    netLines = 5
     for isec in range(0, len(sections)):
+        for j in range(0, netLines)
+            print("Resnet" + sections[isec][0])
         numMap    = sections[isec][0]
         numBlocks = sections[isec][1]
         for iblock in range(0, numBlocks):
